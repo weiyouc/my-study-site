@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT备考网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="logo">备考中心</div>
+        <nav>
+            <ul>
+                <li><a href="#homepage" class="active">导航</a></li>
+                <li><a href="#courses">课程</a></li>
+                <li><a href="#homework">作业</a></li>
+                <li><a href="#about">关于我</a></li>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <!-- 用户头像等可放置于此 -->
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h2>分类</h2>
+            <ul class="category-list">
+                <li><a href="#" class="active" data-category="math">数学</a></li>
+                <li><a href="#" data-category="reading">阅读</a></li>
+                <li><a href="#" data-category="writing">写作</a></li>
+                <li><a href="#" data-category="biology">生物</a></li>
+            </ul>
+        </aside>
+
+        <main id="main-content">
+            <!-- 主页/搜索界面 -->
+            <section id="homepage" class="page active">
+                <div class="search-container">
+                    <h1>课程搜索</h1>
+                    <div class="search-bar">
+                        <input type="text" placeholder="搜索课程、主题或关键词...">
+                        <button>搜索</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 导航页面 (现在只包含内容网格) -->
+            <section id="navigation-page" class="page">
+                <div class="content-grid">
+                    <!-- 卡片将在此处动态生成 -->
+                </div>
+            </section>
+
+            <!-- 课程页面 (也将使用侧边栏) -->
+            <section id="courses" class="page">
+                 <h2>所有课程</h2>
+                 <div class="content-grid">
+                    <!-- 课程相关的卡片 -->
+                 </div>
+            </section>
+            <section id="homework" class="page"></section>
+            <section id="about" class="page"></section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
