@@ -1,0 +1,186 @@
+[
+  {
+    "key": "math",
+    "label": {
+      "zh": "数学",
+      "en": "Math",
+      "es": "Matemáticas"
+    },
+    "subcategories": [
+      {
+        "name": {"zh": "代数", "en": "Algebra", "es": "Álgebra"},
+        "description": {
+          "zh": "掌握SAT考试所需的基础与高级代数知识。",
+          "en": "Master basic and advanced algebra required for the SAT.",
+          "es": "Domina el álgebra básica y avanzada necesaria para el SAT."
+        }
+      },
+      {
+        "name": {"zh": "几何", "en": "Geometry", "es": "Geometría"},
+        "description": {
+          "zh": "学习平面与立体几何的核心概念与解题技巧。",
+          "en": "Learn core concepts and problem-solving skills in plane and solid geometry.",
+          "es": "Aprende conceptos clave y habilidades de resolución de problemas en geometría plana y sólida."
+        }
+      },
+      {
+        "name": {"zh": "数据分析", "en": "Data Analysis", "es": "Análisis de Datos"},
+        "description": {
+          "zh": "理解数据解读、概率与统计在SAT中的应用。",
+          "en": "Understand data interpretation, probability, and statistics for the SAT.",
+          "es": "Comprende la interpretación de datos, probabilidad y estadística para el SAT."
+        }
+      },
+      {
+        "name": {"zh": "函数", "en": "Functions", "es": "Funciones"},
+        "description": {
+          "zh": "熟悉函数的表示、性质与SAT常见题型。",
+          "en": "Familiarize with function representation, properties, and common SAT question types.",
+          "es": "Familiarízate con la representación de funciones, propiedades y tipos de preguntas comunes del SAT."
+        }
+      }
+    ]
+  },
+  {
+    "key": "reading",
+    "label": {
+      "zh": "阅读",
+      "en": "Reading",
+      "es": "Lectura"
+    },
+    "subcategories": [
+      {
+        "name": {"zh": "主旨理解", "en": "Main Idea", "es": "Idea Principal"},
+        "description": {
+          "zh": "快速把握文章主旨与作者意图。",
+          "en": "Quickly grasp the main idea and author's intent.",
+          "es": "Comprende rápidamente la idea principal y la intención del autor."
+        }
+      },
+      {
+        "name": {"zh": "细节理解", "en": "Detail Comprehension", "es": "Comprensión de Detalles"},
+        "description": {
+          "zh": "精准定位并理解文中细节信息。",
+          "en": "Accurately locate and understand detailed information in the text.",
+          "es": "Ubica y comprende con precisión la información detallada en el texto."
+        }
+      },
+      {
+        "name": {"zh": "推理判断", "en": "Inference", "es": "Inferencia"},
+        "description": {
+          "zh": "提升对隐含信息和逻辑推理题的解答能力。",
+          "en": "Improve your ability to answer questions involving implicit information and logical inference.",
+          "es": "Mejora tu capacidad para responder preguntas de información implícita e inferencia lógica."
+        }
+      },
+      {
+        "name": {"zh": "词汇理解", "en": "Vocabulary", "es": "Vocabulario"},
+        "description": {
+          "zh": "掌握SAT高频词汇及其语境含义。",
+          "en": "Master high-frequency SAT vocabulary and their contextual meanings.",
+          "es": "Domina el vocabulario de alta frecuencia del SAT y sus significados contextuales."
+        }
+      },
+      {
+        "name": {"zh": "语义理解", "en": "Semantic Understanding", "es": "Comprensión Semántica"},
+        "description": {
+          "zh": "提升对文章深层含义和语境的理解能力。",
+          "en": "Enhance your understanding of deeper meanings and context in texts.",
+          "es": "Mejora tu comprensión de los significados profundos y el contexto en los textos."
+        }
+      }
+    ]
+  },
+  {
+    "key": "writing",
+    "label": {
+      "zh": "写作",
+      "en": "Writing",
+      "es": "Escritura"
+    },
+    "subcategories": [
+      {
+        "name": {"zh": "语法", "en": "Grammar", "es": "Gramática"},
+        "description": {
+          "zh": "系统梳理SAT写作部分的语法考点。",
+          "en": "Systematically review grammar points for the SAT writing section.",
+          "es": "Revisa sistemáticamente los puntos gramaticales para la sección de escritura del SAT."
+        }
+      },
+      {
+        "name": {"zh": "句子结构", "en": "Sentence Structure", "es": "Estructura de la Oración"},
+        "description": {
+          "zh": "优化句子表达，提升句子多样性与准确性。",
+          "en": "Optimize sentence expression, improve variety and accuracy.",
+          "es": "Optimiza la expresión de oraciones, mejora la variedad y la precisión."
+        }
+      },
+      {
+        "name": {"zh": "修辞", "en": "Rhetoric", "es": "Retórica"},
+        "description": {
+          "zh": "理解修辞手法及其在写作中的应用。",
+          "en": "Understand rhetorical devices and their application in writing.",
+          "es": "Comprende los recursos retóricos y su aplicación en la escritura."
+        }
+      },
+      {
+        "name": {"zh": "逻辑表达", "en": "Logical Expression", "es": "Expresión Lógica"},
+        "description": {
+          "zh": "提升文章结构与逻辑连贯性。",
+          "en": "Enhance article structure and logical coherence.",
+          "es": "Mejora la estructura del texto y la coherencia lógica."
+        }
+      }
+    ]
+  },
+  {
+    "key": "biology",
+    "label": {
+      "zh": "生物",
+      "en": "Biology",
+      "es": "Biología"
+    },
+    "subcategories": [
+      {
+        "name": {"zh": "细胞生物学", "en": "Cell Biology", "es": "Biología Celular"},
+        "description": {
+          "zh": "细胞结构、功能及其在生命活动中的作用。",
+          "en": "Cell structure, function, and their roles in life activities.",
+          "es": "Estructura y función celular y su papel en las actividades vitales."
+        }
+      },
+      {
+        "name": {"zh": "遗传学", "en": "Genetics", "es": "Genética"},
+        "description": {
+          "zh": "遗传规律、基因表达与变异。",
+          "en": "Genetic laws, gene expression, and variation.",
+          "es": "Leyes genéticas, expresión génica y variación."
+        }
+      },
+      {
+        "name": {"zh": "生态学", "en": "Ecology", "es": "Ecología"},
+        "description": {
+          "zh": "生态系统结构、能量流动与物质循环。",
+          "en": "Ecosystem structure, energy flow, and material cycles.",
+          "es": "Estructura del ecosistema, flujo de energía y ciclos de materiales."
+        }
+      },
+      {
+        "name": {"zh": "进化与多样性", "en": "Evolution & Diversity", "es": "Evolución y Diversidad"},
+        "description": {
+          "zh": "生物进化理论及生物多样性的形成。",
+          "en": "Theory of evolution and the formation of biological diversity.",
+          "es": "Teoría de la evolución y formación de la diversidad biológica."
+        }
+      },
+      {
+        "name": {"zh": "环境学", "en": "Environmental Science", "es": "Ciencias Ambientales"},
+        "description": {
+          "zh": "研究环境与生物之间的相互关系及其影响。",
+          "en": "Study the interactions between environment and organisms and their impacts.",
+          "es": "Estudia las interacciones entre el medio ambiente y los organismos y sus impactos."
+        }
+      }
+    ]
+  }
+] 
