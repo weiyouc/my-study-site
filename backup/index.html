@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT备考网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="logo">备考中心</div>
+        <div class="lang-switcher">
+            <button data-lang="zh" class="lang-btn active">中文</button>
+            <button data-lang="en" class="lang-btn">English</button>
+            <button data-lang="es" class="lang-btn">Español</button>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#homepage" class="active">导航</a></li>
+                <li><a href="#courses">课程</a></li>
+                <li><a href="#homework">作业</a></li>
+                <li><a href="#about">关于我</a></li>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <!-- 用户头像等可放置于此 -->
+        </div>
+        <button class="hamburger-menu" aria-label="菜单" aria-expanded="false" style="display:none;">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h2>分类</h2>
+            <ul class="category-list">
+
+            </ul>
+        </aside>
+
+        <main id="main-content">
+            <!-- 主页/搜索界面 -->
+            <section id="homepage" class="page active">
+                <div class="search-container">
+                    <h1>SAT课程搜索</h1>
+                    <div class="search-bar">
+                        <input type="text" placeholder="搜索课程、主题或关键词...">
+                        <button>搜索</button>
+                    </div>
+                </div>
+                <div class="course-info">
+                    <h2>课程简介</h2>
+                    <p>本网站为SAT备考学生提供系统化的课程资源，涵盖数学、阅读、写作、生物等主要科目。课程内容紧贴SAT考试大纲，帮助学生全面提升解题能力与应试技巧。</p>
+                    <ul>
+                        <li><strong>课程目标：</strong> 帮助学生掌握SAT各科核心知识点，提升考试分数。</li>
+                        <li><strong>适合人群：</strong> 准备参加SAT考试的高中生、国际学校学生及自学考生。</li>
+                        <li><strong>课程特色：</strong> 分模块讲解，配套练习题，实时作业反馈，支持个性化学习路径。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 导航页面 (现在只包含内容网格) -->
+            <section id="navigation-page" class="page">
+                <div class="content-grid">
+                    <!-- 卡片将在此处动态生成 -->
+                </div>
+            </section>
+
+            <!-- 课程页面 (也将使用侧边栏) -->
+            <section id="courses" class="page">
+                 <h2>所有课程</h2>
+                 <div class="content-grid">
+                    <div class="course-card">
+                        <div class="card-content">
+                            <h3>数学</h3>
+                            <p>系统讲解SAT数学知识点，涵盖代数、几何、数据分析等，配套真题训练，提升解题速度与准确率。</p>
+                            <button onclick="alert('敬请期待！')">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="card-content">
+                            <h3>阅读</h3>
+                            <p>聚焦SAT阅读理解能力，训练快速抓取主旨、推理判断与词汇理解，助力高分突破。</p>
+                            <button onclick="alert('敬请期待！')">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="card-content">
+                            <h3>写作</h3>
+                            <p>分模块提升写作表达与逻辑结构，剖析高分范文，提供实用写作技巧与批改建议。</p>
+                            <button onclick="alert('敬请期待！')">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="card-content">
+                            <h3>生物</h3>
+                            <p>覆盖SAT生物考试核心知识，结合图表分析与实验设计，帮助学生科学备考。</p>
+                            <button onclick="alert('敬请期待！')">查看详情</button>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+            <section id="homework" class="page"></section>
+            <section id="about" class="page"></section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
